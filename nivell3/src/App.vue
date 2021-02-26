@@ -8,39 +8,6 @@
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-import Pare from './components/Pare.vue'
+<script src="./scripts/App.js"></script>
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-    Pare
-  },
-  methods: {
-    mostrarAlerta() {
-      this.mostrar = true;
-    },
-    amagarAlerta() {
-      this.mostrar = false;
-    }
-  },
-  data() {
-    return {
-      mostrar: false
-    }
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style src="./styles/App.css"></style>
