@@ -18,6 +18,7 @@
             <!-- Modal body -->
             <div class="modal-body">
                 <slot name="body"></slot>
+                <p class="mt-2 mb-0 text-center">El canvi de {{cant | Inicializar}}€ en dòlars son {{cant | Convertir}}$</p>
             </div>
 
             <!-- Modal footer -->

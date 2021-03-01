@@ -23,18 +23,6 @@ export default {
             alert("Hola");
         }
     },
-    filters: {
-        Convertir(value) {
-            const rate = 1.23;
-            return (value * rate).toFixed(2);
-        },
-        Inicializar(value) {
-            if (value == "") {
-                value = 0;
-            }
-            return value;
-        }
-    },
     emits: [
         'enviar',
         'ocultar'
